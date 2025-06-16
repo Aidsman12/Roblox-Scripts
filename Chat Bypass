@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IayZBoy/Scripts/refs/heads/main/RonixBypasser.lua"))()
