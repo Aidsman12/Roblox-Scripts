@@ -1,0 +1,3 @@
+The main game this script is focused on is mic up but also has universal things you can use in every game.
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EnterpriseExperience/MicUpSource/refs/heads/main/retrieve_branch_version.lua'))()
