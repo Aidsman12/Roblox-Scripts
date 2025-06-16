@@ -1,0 +1,72 @@
+Script Guis:
+
+Infinite Yield
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+System Broken
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+
+MM2 Murder and Sheriff Outline
+local function GetMurderer()
+    local plrs = game:GetService("Players")
+    for i,v in pairs(plrs:GetPlayers()) do
+        if v.Character:FindFirstChild("Knife") or v.Backpack:FindFirstChild("Knife") then
+            return v.Character
+        end
+    end
+end
+local function GetSheriff()
+    local plrs = game:GetService("Players")
+    for i,v in pairs(plrs:GetPlayers()) do
+        if v.Character:FindFirstChild("Gun") or v.Backpack:FindFirstChild("Gun") then
+            return v.Character
+        end
+    end
+end
+
+print(GetMurderer())
+print(GetSheriff())
+
+if GetSheriff() then
+    local SheriffOutline = Instance.new("Highlight")
+    SheriffOutline.FillColor = Color3.fromRGB(0,0,255)
+    SheriffOutline.FillTransparency = .75
+    SheriffOutline.OutlineColor = Color3.fromRGB(0,0,255)
+    SheriffOutline.Parent = GetSheriff()
+end
+
+if GetMurderer() then
+    local MurdererOutline = Instance.new("Highlight")
+    MurdererOutline.FillColor = Color3.fromRGB(255,0,0)
+    MurdererOutline.FillTransparency = .75
+    MurdererOutline.OutlineColor = Color3.fromRGB(255,0,0)
+    MurdererOutline.Parent = GetMurderer()
+end
+
+
+Strongest Punch Simulator Farm
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/extremehub/main/loader.lua"))() 
+
+The Strongest Battlegrounds Gui
+loadstring(game:HttpGet("https://gist.githubusercontent.com/Noroded/add5f50deb5351b84a58f9e26784d421/raw/f4fe60235768436d96a1bd61802ae79eebcab3ce/mainguitsb", true))() 
+
+Fisch
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ago106/SpaceHub/refs/heads/main/Multi'))()
+
+Universal Esp
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()
+
+Chat Bypass
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IayZBoy/Scripts/refs/heads/main/RonixBypasser.lua"))()
+
+Clear Chat
+if game:GetService("TextChatService").ChatVersion == Enum.ChatVersion.TextChatService then game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("hi\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\rCleared Chat.") else game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Not Supported", Text = "This game has the legacy ROBLOX chat version. The script can only be used in the new version of the ROBLOX chat. Sorry :("}) end
+
+Dungeon Heroes
+loadstring(game:HttpGet(('https://pastefy.app/pkAgOxnZ/raw'),true))()
+
+Randomizer Aimbot
+local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()Aimbot.Load()
+
+Stalkie Run Away Animation
+loadstring(game:HttpGet("https://www.ghostbin.cloud/x2bhh/raw"))()
