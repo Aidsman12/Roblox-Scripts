@@ -70,3 +70,25 @@ local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys
 
 Stalkie Run Away Animation
 loadstring(game:HttpGet("https://www.ghostbin.cloud/x2bhh/raw"))()
+
+AK Admin
+loadstring(game:HttpGet("https://angelical.me/ak.lua"))()
+Key: https://discord.gg/xz7TRD3WH4\
+
+Solara Hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/samuraa1/Solara-Hub/refs/heads/main/Solara%20Hub.lua"))()
+
+Katerhub V3
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
+
+Ghost Hub
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+
+Shots Hub
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/shotsdunkx/Shots-hub/refs/heads/main/script.lua"))()
+
+Troll Hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))()
+
+Zacks Easy Hub
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EnterpriseExperience/MicUpSource/refs/heads/main/retrieve_branch_version.lua'))()
